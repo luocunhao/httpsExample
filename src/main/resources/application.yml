@@ -1,0 +1,15 @@
+wechat:
+  token: luoch
+pulan:
+  apikey: test123456
+logging:
+  pattern:
+    console: "%d - %msg%n"
+debug: true
+server:
+  port: 443
+  ssl:
+    key-store: classpath:keystore.p12
+    key-store-password: lch940906.
+    key-store-type: PKCS12
+    key-alias: tomcat
